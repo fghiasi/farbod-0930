@@ -1,3 +1,4 @@
+
 from pydantic import BaseModel
 from typing import List
 
@@ -8,10 +9,23 @@ class ResponseModel(BaseModel):
 
     class Batch(BaseModel):
         class Entity(BaseModel):
-            label: str
-            start: int
-            end: int
             text: str
+            i: int
+            lemma_: str
+            norm_: int
+            ent_type_: str
+            ent_iob_: int
+            pos_: str
+            tag_: str
+            dep_: str
+            is_alpha: bool
+            is_ascii: bool
+            is_digit: bool
+            is_lower: bool
+            is_upper: bool
+            is_title: bool
+            is_punct: bool
+            morph: str
 
         text: str
         ents: List[Entity] = []

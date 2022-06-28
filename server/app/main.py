@@ -5,7 +5,12 @@ from server.app.routers import spacy_ner
 
 app = FastAPI()
 
-
+origins = [
+    "http://localhost.tiangolo.com",
+    "https://localhost.tiangolo.com",
+    "http://127.0.0.1:8000",
+    "http://localhost:8080",
+]
 # Set all CORS enabled origins
 app.add_middleware(
     CORSMiddleware,
