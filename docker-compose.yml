@@ -1,0 +1,12 @@
+server:
+  build: ./server
+  ports:
+    - "8000:8000"
+  command: "uvicorn /deployment_server/main::app --reload"
+  links:
+    - client
+client:
+  build: ./client
+  ports:
+      - "9999:80"
+  command: "wave /deployment_client/run wave_app.py"
