@@ -29,7 +29,7 @@ My name is Farbod Ghiasi and recent graduate of the University of California wit
 [3]: https://www.linkedin.com/in/farbod-ghiasi-87401b96/
 
 [//]: # ()
-[//]: # (## Quick Start)
+(## DEMO: https://youtu.be/7ajLhxPmnzY)
 
 [//]: # (To use this repository as starter for your project you can run `configure_project.sh` script, which sets up all variables and file names. This way you can avoid configuring and renaming things yourself:)
 
