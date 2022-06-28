@@ -10,7 +10,7 @@
 </p>
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" />
 
-My name is Farbod Ghiasi and recent graduate of the University of California with a Bachelor of Science in Computer Science, with an emphasis in Intelligent Systems. You can find me on [![LinkedIn][3.2]][3].
+My name is Farbod Ghiasi and recent graduate of the University of California with a Bachelor of Science in Computer Science, with an emphasis in Intelligent Systems. You can find me on [LinkedIn][3.2].
 
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/OS-Ubuntu-informational?style=flat&logo=Ubuntu&logoColor=white&color=orange)
